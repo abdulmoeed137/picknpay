@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:background="@drawable/righticon"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid Night Deal 1"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_background"
+                    />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 large pizza and 2.5ML Pepsi"
+                android:textSize="9dp"
+                android:textColor="@color/grey_background"
+                />
+
+
+            <TextView
+                android:padding="2dp"
+                android:layout_marginTop="3dp"
+                android:textSize="10dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 200"/>
+        </LinearLayout>
+</RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

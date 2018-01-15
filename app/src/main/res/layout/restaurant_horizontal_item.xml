@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="225dp"
+    android:layout_height="150dp"
+    android:background="@color/transparent"
+    android:padding="10dp">
+
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView1"
+               android:background="@drawable/burger"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="10dip"
+                app:riv_border_width="2dip"
+                app:riv_border_color="@color/transparent"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="repeat"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Restaurant name"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/rounded_bg_for_horizontal_item"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smith Johnson"
+                    android:textColor="@color/grey_background"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:numStars="5"
+                    android:rating="3" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:padding="2dp"
+                android:layout_marginTop="3dp"
+                android:textSize="10dp"
+                android:textColor="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YE kar k dikhao , aur ye kr k dikhao, ab ye kar k dikahoooo , hahahahhahahahah"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

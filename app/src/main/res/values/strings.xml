@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PickNPay</string>
+    <string-array name="expiry_date">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="year">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+</resources>
