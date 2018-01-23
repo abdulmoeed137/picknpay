@@ -16,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_restaurant_profiles);
 
 
         initialize();
@@ -27,17 +27,17 @@ public class SplashActivity extends AppCompatActivity {
     private void setUpComponents() {
 
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
-            }
-        });
+//        next.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+//            }
+//        });
 
     }
 
     private void initialize() {
 
-        next = (FloatingActionButton)this.findViewById(R.id.next);
+     //   next = (FloatingActionButton)this.findViewById(R.id.next);
     }
 }

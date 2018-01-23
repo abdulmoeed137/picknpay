@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+  >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/foodcover" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza Hut"
+        android:textColor="@color/grey_background"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24 Street Sydney , Australia"
+        android:textColor="@color/grey_background"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="3dp"/>
+
+    <RatingBar
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:numStars="5"
+        android:rating="4" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/mainColor"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:text="Open Now-"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/grey_background"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:text="12Pm to 12AM"
+            android:gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainColor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+            android:layout_marginRight="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/callgrey"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/textcolor"/>
+        <TextView
+            android:textSize="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:textColor="@color/QRCodeBlackColor"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/callgrey"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/textcolor"/>
+
+            <TextView
+                android:textSize="8dp"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Been Here"
+                android:textColor="@color/QRCodeBlackColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/callgrey"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/textcolor"/>
+            <TextView
+                android:textSize="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BookMark"
+                android:textColor="@color/QRCodeBlackColor"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/callgrey"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/textcolor"/>
+            <TextView
+                android:textSize="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Review"
+                android:textColor="@color/QRCodeBlackColor"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/callgrey"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/textcolor"/>
+            <TextView
+                android:textSize="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Photo"
+                android:textColor="@color/QRCodeBlackColor"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review: 1 Bookmark: 1 Been There: 3"
+        android:textColor="@color/QRCodeBlackColor"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mainColor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></View>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/btn_order"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/mainColor"
+        android:text="Order Now"
+        android:textColor="@color/mainColor2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:weightSum="5">
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+                <ImageView
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prawn"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prawn"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prawn"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prawn"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have any photo from your visit?"
+                    android:textColor="@color/QRCodeBlackColor"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:textSize="11dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Share them with every one"
+                    android:textColor="@color/textcolor"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Add Photo"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/mainColor"
+                android:textColor="@color/white"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="Call"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/mainColor"
+                    android:textStyle="bold"
+                    android:text="021 1212112"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="Cuisine"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/QRCodeBlackColor"
+                    android:text="Thai"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="Type"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/QRCodeBlackColor"
+                    android:text="Casual Dining"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="Average Cost"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/QRCodeBlackColor"
+                    android:text="Rs. 500"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/QRCodeBlackColor"
+                    android:text="Cash, Card, Keenu Accepted"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="More Info"
+                    android:textSize="12dp"/>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+                </LinearLayout>
+                <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/add"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/grey_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home Delivery"/>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/add"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/grey_background"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Delivery"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/QRCodeBlackColor"
+            android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:text="5 star chorangi karachi nazimabad pakistan asia world"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reviews"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.3"
+                    android:background="@color/mainColor"
+                    android:textSize="25dp"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Based on 89 review"
+                        android:textColor="@color/QRCodeBlackColor"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Weight average set on user credibility on FoodRani"
+                        android:textColor="@color/textcolor"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Have any review from your visit?"
+                        android:textColor="@color/QRCodeBlackColor"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Share them with every one"
+                        android:textColor="@color/textcolor"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Add Review"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:background="@color/mainColor"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout></ScrollView></LinearLayout>
